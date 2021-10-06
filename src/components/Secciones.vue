@@ -11,9 +11,9 @@
     </section>
 
     <section   class="contenedor">
-        <div>
+        <div class="">
         <h2>Noticias</h2>
-        <p>Lo consectetur adipisicing.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus qui at quas placeat iste architecto porro impedit officia voluptates omnis ad blanditiis fugit veritatis nobis, debitis natus laborum suscipit. Quod?</p>
         <ul><button>mas</button></ul>
         
        
@@ -44,9 +44,13 @@ export default {
 <style>
 .contenedor{
   display: inline-block;
-  padding:75px 100px 40px;
+  padding:100px;
   text-align: center;
 
+}
+
+p{
+  overflow: auto;
 }
 
 </style>

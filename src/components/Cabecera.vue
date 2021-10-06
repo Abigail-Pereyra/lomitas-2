@@ -2,7 +2,7 @@
   <div class="cabecera">
     <h1>{{ msg }}</h1>
    <div>
-      <img src="../assets/cabecera1.png" class="img">
+      <!-- <img src="../assets/cabecera1.png" class="img"> -->
    </div>     
     
    
@@ -30,7 +30,9 @@ export default {
    background-color:rgba(145, 199, 200, 0.667);
    width: 100vw;
    height: 8vh;
-  
+   position: fixed;
+   margin: -90px;
+
 }
 h1{
   /* display:flex;
@@ -39,6 +41,8 @@ h1{
   line-height: 2.5;
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-weight: 200;
+   
+  
 
 }
 
