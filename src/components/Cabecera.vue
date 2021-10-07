@@ -1,9 +1,7 @@
 <template>
   <div class="cabecera">
     <h1>{{ msg }}</h1>
-   <div>
-      <!-- <img src="../assets/cabecera1.png" class="img"> -->
-   </div>     
+     
     
    
   </div>
@@ -26,10 +24,10 @@ export default {
   max-width: 800px;
   margin: 0 auto;
   background-color:#faaa; */
-  font-size: 10px;
+  font-size: 12px;
    background-color:rgba(145, 199, 200, 0.667);
    width: 100vw;
-   height: 8vh;
+   height: 10vh;
    position: fixed;
    margin: -90px;
 
@@ -51,7 +49,19 @@ template{
   background-color: powderblue;
 }
 
-/* .img{
+/* .caja{
+ display: flex;
+ height: 250px;
+  
+ 
+}
 
+.caja div{
+  flex: 1;
+  display: flex;
+} 
+
+.caja img{
+  object-fit: cover;
 } */
 </style>

@@ -1,8 +1,8 @@
 <template>
  <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> 
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>  -->
     </div>
     <router-view/>
 
@@ -18,10 +18,12 @@
 import Cabecera from './components/Cabecera.vue'
 // import Menu from './components/Menu.vue'
 
+
 export default {
   name: 'App',
   components: {
-    Cabecera
+    Cabecera,
+    
     // Menu
   }
 }
@@ -48,5 +50,13 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+@media screen and (max-width:800px){
+  
+  .nav-ul{
+    width: 50vw;
+    
+  }
 }
 </style>

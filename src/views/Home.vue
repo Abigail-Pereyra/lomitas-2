@@ -2,10 +2,13 @@
   <div class="home">
     
     <Cabecera msg="Municipalidad de Las Lomitas"/>
+    <ImgCabecera/>
+    <MenuNav/>
     <Secciones/>
     <Galeria msg="Galeria"/>
-    <MenuNav/>
+    
     <Footer/>
+    
   </div>
 </template>
 
@@ -17,6 +20,7 @@ import Secciones from '@/components/Secciones.vue'
 import Galeria from '@/components/Galeria.vue'
 import MenuNav from '@/components/MenuNav.vue'
 import Footer from '@/components/Footer.vue'
+import ImgCabecera from '@/components/ImgCabecera.vue'
 
 export default {
   name: 'Home',
@@ -26,7 +30,8 @@ export default {
     Secciones,
     Galeria,
     MenuNav,
-    Footer
+    Footer,
+    ImgCabecera
   }
 }
 </script>

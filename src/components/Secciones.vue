@@ -47,10 +47,21 @@ export default {
   padding:100px;
   text-align: center;
 
+
 }
 
 p{
   overflow: auto;
 }
 
+button{
+  padding: 20px;
+  background: cyan;
+  transition:  0.5s;
+}
+
+button:hover{
+  padding: 20px;
+  background: darkcyan;
+}
 </style>
