@@ -8,9 +8,9 @@
         <ul><button>Pago tazas municipales2</button></ul>
         <ul><button>Pago tazas municipales3</button></ul>
          </div>
-    </section>
+   
 
-    <section   class="contenedor">
+    
         <div class="">
         <h2>Noticias</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus qui at quas placeat iste architecto porro impedit officia voluptates omnis ad blanditiis fugit veritatis nobis, debitis natus laborum suscipit. Quod?</p>
@@ -19,8 +19,7 @@
        
          </div>
 
-    </section>
-    <section class="contenedor">
+    
         <div>
         <h2>Visita Nuestras Redes</h2>
        <ul><button>Facebook</button></ul>
@@ -43,9 +42,11 @@ export default {
 
 <style>
 .contenedor{
-  display: inline-block;
-  padding:100px;
-  text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
 
 
 }

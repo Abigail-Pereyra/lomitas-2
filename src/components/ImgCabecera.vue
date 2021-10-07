@@ -1,10 +1,10 @@
 <template>
-  
-   <div class="caja">
-      <img src="../assets/cabecera1.png" >
+  <header>
+   <div class="header" >
+     <!-- <img src= "../assets/cabecera1.png" alt=""> -->
    </div>     
     
-   
+   </header>
   
 </template>
 
@@ -19,21 +19,14 @@ export default {
 
 
 <style >
-.caja{
- display: flex;
- height: 250px;
- 
-  
- 
-}
+.header{
+  height: 100vh;
+  background-image: url("../assets/cabecera1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 
-.caja div{
-  flex: 1;
-  display: flex;
-} 
-
-.caja img{
-  object-fit: cover;
 }
 
 </style>
