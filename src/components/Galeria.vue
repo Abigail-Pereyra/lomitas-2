@@ -42,7 +42,17 @@ export default {
   box-shadow: 0 0 6px rgba(0, 0, 0, .6);
   cursor: pointer;
   
-}
 
+  
+}
+/* .agregar-imagen{
+  width: 60%;
+  border-radius:10px;
+}
+.close{
+  position: absolute;
+  top: 15px;
+
+} */
 
 </style>

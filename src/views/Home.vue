@@ -5,8 +5,9 @@
     <ImgCabecera/>
     <MenuNav/>
     <Secciones/>
+    <Noticias/>
     <Galeria msg="Galeria"/>
-    
+    <Carousel/>
     <Footer/>
     
   </div>
@@ -21,6 +22,8 @@ import Galeria from '@/components/Galeria.vue'
 import MenuNav from '@/components/MenuNav.vue'
 import Footer from '@/components/Footer.vue'
 import ImgCabecera from '@/components/ImgCabecera.vue'
+import Noticias from '@/components/Noticias.vue'
+import Carousel from 'primevue/carousel';
 
 export default {
   name: 'Home',
@@ -31,7 +34,9 @@ export default {
     Galeria,
     MenuNav,
     Footer,
-    ImgCabecera
+    ImgCabecera,
+    Noticias,
+    Carousel
   }
 }
 </script>
