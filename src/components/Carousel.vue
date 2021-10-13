@@ -10,7 +10,7 @@
         <div class="product-item">
             <div class="product-item-content">
                 <div class="p-mb-3">
-                    <img :src="'demo/images/product/' + slotProps.data.image" :alt="slotProps.data.name" class="product-image" />
+                    <img :src="'../assets/foto3.png' + slotProps.data.image" :alt="slotProps.data.name" class="product-image" />
                 </div>
                 <div>
                     <h4 class="p-mb-1">{{slotProps.data.name}}</h4>
