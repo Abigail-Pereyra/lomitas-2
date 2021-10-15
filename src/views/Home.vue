@@ -5,9 +5,10 @@
     <ImgCabecera/>
     <MenuNav/>
     <Secciones/>
+     <Carousel/>
     <Noticias/>
     <Galeria msg="Galeria"/>
-    <Carousel/>
+   
     <Footer/>
     
   </div>

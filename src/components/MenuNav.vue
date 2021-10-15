@@ -45,12 +45,13 @@
     
 </template>
 <script>
-export default {
-  name: 'MenuNav',
-  props: {
-    msg: String
-  }
-}
+// export default {
+//   name: 'MenuNav',
+//   props: {
+//     msg: String
+//   }
+// }
+
 </script>
 
 <style>
