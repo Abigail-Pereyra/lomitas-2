@@ -41,3 +41,73 @@ export default {
   }
 }
 </script>
+
+<style>
+ @media screen and (max-width:800px){
+   .menu-navegacion{
+     width: 50vh;
+   }
+
+   .contenedor{
+     width: 80%;
+     margin-bottom: 40px;
+   }
+
+   .img-galeria{
+     width: 45%;
+   }
+
+   .footer-contect{
+     justify-content: center;
+   }
+
+   .social-media{
+     width: 95%;
+     justify-content: space-evenly;
+   }
+
+   .social-media-iconos {
+     margin-left:0;
+   }
+
+   .contacto-us{
+     text-align: center;
+     width: 80%;
+     margin-bottom: 40px;
+   }
+ }
+
+ /* @media screen and (max-width:500px){
+   .menu-navegacion{
+     width: 65vh;
+   }
+
+   .contenedor{
+     width: 80%;
+     margin-bottom: 40px;
+   }
+
+   .img-galeria{
+     width: 45%;
+   }
+
+   .footer-contect{
+     justify-content: center;
+   }
+
+   .social-media{
+     width: 95%;
+     justify-content: space-evenly;
+   }
+
+   .social-media-iconos {
+     margin-left:0;
+   }
+
+   .contacto-us{
+     text-align: center;
+     width: 80%;
+     margin-bottom: 40px;
+   }
+ } */
+</style>

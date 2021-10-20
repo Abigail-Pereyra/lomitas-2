@@ -45,19 +45,34 @@
     
 </template>
 <script>
-// export default {
-//   name: 'MenuNav',
-//   props: {
-//     msg: String
-//   }
-// }
+export default {
+   name: 'MenuNav',
+   props: {
+    msg: String
+   }
+ }
+
+ const icono = document.querySelector('.icono');
+ const menu = document.querySelector('.menu-navegacion');
+
+ icono.addEventListener('click', ()=>{
+   menu.classList.toggle("spread")
+ })
+
+ window.addEventListener('click', e=>{
+   if (menu.classList.constains('spread')
+   && e.toggle != menu && e.toggle != icono ){
+     menu.classList.toggle('spread')
+   }
+ })
+
+
 
 </script>
 
 <style>
 .icono{
   position: fixed;
-  z-index: 10;
   top: 30px;
   right: 30px;
   background: #fff;
@@ -80,7 +95,7 @@
   justify-content: space-evenly;
   align-items: center;
   transition: transform .3s ease-in-out;
-  transform: translate(110%); 
+   transform: translate(110%);  
   box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
