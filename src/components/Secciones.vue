@@ -4,7 +4,7 @@
     <section class="contenedor">
         <div class="cont-secion">
         <h2>Tramites en linea</h2> 
-       <ul><button>Pago tazas municipales</button></ul>
+        <Button label="Submit" class="p-button-text" />
         <ul><button>Pago tazas municipales2</button></ul>
         <ul><button>Pago tazas municipales3</button></ul>
          </div>

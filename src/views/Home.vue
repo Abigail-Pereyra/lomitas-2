@@ -5,9 +5,11 @@
     <ImgCabecera/>
     <MenuNav/>
     <Secciones/>
-     <Carousel/>
+   
     <Noticias/>
     <Galeria msg="Galeria"/>
+   
+
    
     <Footer/>
     
@@ -23,8 +25,9 @@ import Galeria from '@/components/Galeria.vue'
 import MenuNav from '@/components/MenuNav.vue'
 import Footer from '@/components/Footer.vue'
 import ImgCabecera from '@/components/ImgCabecera.vue'
-import Noticias from '@/components/Noticias.vue'
-import Carousel from 'primevue/carousel';
+import Noticias from '@/components/Noticias.vue';
+import Button from 'primevue/button';
+
 
 export default {
   name: 'Home',
@@ -37,7 +40,8 @@ export default {
     Footer,
     ImgCabecera,
     Noticias,
-    Carousel
+    Button
+    
   }
 }
 </script>

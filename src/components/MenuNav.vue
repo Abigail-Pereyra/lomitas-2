@@ -52,19 +52,19 @@ export default {
    }
  }
 
- const icono = document.querySelector('.icono');
- const menu = document.querySelector('.menu-navegacion');
+//  const icono = document.querySelector('.icono');
+//  const menu = document.querySelector('.menu-navegacion');
 
- icono.addEventListener('click', ()=>{
-   menu.classList.toggle("spread")
- })
+//  icono.addEventListener('click', ()=>{
+//    menu.classList.toggle("spread")
+//  })
 
- window.addEventListener('click', e=>{
-   if (menu.classList.constains('spread')
-   && e.toggle != menu && e.toggle != icono ){
-     menu.classList.toggle('spread')
-   }
- })
+//  window.addEventListener('click', e=>{
+//    if (menu.classList.constains('spread')
+//    && e.toggle != menu && e.toggle != icono ){
+//      menu.classList.toggle('spread')
+//    }
+//  })
 
 
 
