@@ -1,7 +1,9 @@
 <template>
-   
-      <nav >
+   <div class="contenedor">
+    <div class= "columns">
          <svg xmlns="http://www.w3.org/2000/svg" class="icono" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path></svg>
+      <div class="menu-collaper">
+        <div class="colapse-button">
       <ul class="menu-navegacion">
        <li> <a href="#">SERVICIOS</a>
           <ul>
@@ -40,7 +42,7 @@
          
   </ul>
       
-       </nav>
+    </div>   
     
     
 </template>
